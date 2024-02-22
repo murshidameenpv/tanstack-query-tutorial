@@ -1,4 +1,4 @@
-import { useMutation, useQuery } from "@tanstack/react-query";
+import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { addPost, fetchPosts, fetchTags } from "../api/api";
 
 const PostList = () => {
@@ -16,6 +16,10 @@ const PostList = () => {
     queryFn: fetchTags,
   });
 
+  //onmutate will run before actual mutation (mutate method) working
+  //on success works after mutate working
+  //depends situation use both,if we return something in onMutate it will go to context
+  const queryClient = useQueryClient();
   const {
     mutate,
     isError: isPostError,
@@ -23,6 +27,14 @@ const PostList = () => {
     error: postError,
   } = useMutation({
     mutationFn: addPost,
+    onMutate: () => {
+      return { id: 1 };
+    },
+    onSuccess: (data, variables, context) => {
+      queryClient.invalidateQueries({
+        queryKey: ["posts"],
+      });
+    },
   });
 
   const handleSubmit = (e) => {
@@ -34,9 +46,9 @@ const PostList = () => {
       (key) => formData.get(key) === "on"
     );
     if (!postTitle || !formData) return;
-    console.log(postTitle);
-    console.log(postTags);
-    mutate({ id:123, title: postTitle, tags: postTags });
+    // console.log(postTitle);
+    // console.log(postTags);
+    mutate({ id: postData.length + 1, title: postTitle, tags: postTags });
     e.target.reset();
   };
 
@@ -46,9 +58,9 @@ const PostList = () => {
         <input type="text" placeholder="Enter Your Post" name="title" />
         <div className="tags">
           {tagsData?.map((tag) => (
-            <div key={tag} className="checkbox-container">
-              <input type="checkbox" name={tag} id={tag} />
-              <label htmlFor={tag}>{tag}</label>
+            <div key={tag.name} className="checkbox-container">
+              <input type="checkbox" name={tag.name} id={tag.name} />
+              <label htmlFor={tag.name}>{tag.name}</label>
             </div>
           ))}
         </div>
@@ -60,16 +72,19 @@ const PostList = () => {
         ) : isError ? (
           <p>{error?.message}</p>
         ) : (
-          postData?.map((post) => (
-            <div className="card" key={post.id}>
-              <h2>{post.title}</h2>
-              {post?.tags?.map((tag, index) => (
-                <p className="tag" key={index}>
-                  {tag}
-                </p>
-              ))}
-            </div>
-          ))
+          postData
+            ?.slice()
+            .reverse()
+            .map((post) => (
+              <div className="card" key={post.id}>
+                <h2>{post.title}</h2>
+                {post?.tags?.map((tag, index) => (
+                  <p className="tag" key={index}>
+                    {tag}
+                  </p>
+                ))}
+              </div>
+            ))
         )}
       </div>
     </div>
@@ -77,3 +92,4 @@ const PostList = () => {
 };
 
 export default PostList;
+

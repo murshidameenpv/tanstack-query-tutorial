@@ -1,7 +1,7 @@
 {
   "posts": [
     {
-      "id": 1,
+      "id": "1",
       "title": "His mother had always taught him",
       "tags": [
         "history",
@@ -9,7 +9,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "He was an expert but not in a discipline",
       "tags": [
         "french",
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Dave watched as the forest burned up on the hill.",
       "tags": [
         "magical",
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "All he wanted was a candy bar.",
       "tags": [
         "mystery",
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Hopes and dreams were dashed that day.",
       "tags": [
         "crime",
@@ -44,7 +44,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Dave wasn't exactly sure how he had ended up",
       "tags": [
         "english",
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "This is important to remember.",
       "tags": [
         "magical",
@@ -60,14 +60,14 @@
       ]
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "One can cook on and with an open fire.",
       "tags": [
         "english"
       ]
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "There are different types of secrets.",
       "tags": [
         "history",
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "They rushed out the door.",
       "tags": [
         "fiction",
@@ -84,7 +84,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": "11",
       "title": "It wasn't quite yet time to panic.",
       "tags": [
         "mystery",
@@ -92,7 +92,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": "12",
       "title": "She was aware that things could go wrong.",
       "tags": [
         "love",
@@ -100,7 +100,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": "13",
       "title": "She wanted rainbow hair.",
       "tags": [
         "mystery",
@@ -109,7 +109,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": "14",
       "title": "The paper was blank.",
       "tags": [
         "mystery",
@@ -118,7 +118,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": "15",
       "title": "The trees, therefore, must be such old",
       "tags": [
         "fiction",
@@ -127,7 +127,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": "16",
       "title": "There was only one way to do things in the Statton house.",
       "tags": [
         "magical",
@@ -135,7 +135,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": "17",
       "title": "She was in a hurry.",
       "tags": [
         "french",
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": "18",
       "title": "She had a terrible habit o comparing her life to others",
       "tags": [
         "history",
@@ -153,7 +153,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": "19",
       "title": "The rain and wind abruptly stopped.",
       "tags": [
         "fiction",
@@ -162,7 +162,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": "20",
       "title": "He couldn't remember exactly where he had read it",
       "tags": [
         "french",
@@ -170,14 +170,14 @@
       ]
     },
     {
-      "id": 21,
+      "id": "21",
       "title": "He wandered down the stairs and into the basement",
       "tags": [
         "french"
       ]
     },
     {
-      "id": 22,
+      "id": "22",
       "title": "She has seen this scene before.",
       "tags": [
         "classic",
@@ -186,7 +186,7 @@
       ]
     },
     {
-      "id": 23,
+      "id": "23",
       "title": "It's an unfortunate reality that we don't teach people how to make money",
       "tags": [
         "crime",
@@ -194,7 +194,7 @@
       ]
     },
     {
-      "id": 24,
+      "id": "24",
       "title": "The robot clicked disapprovingly.",
       "tags": [
         "crime",
@@ -202,7 +202,7 @@
       ]
     },
     {
-      "id": 25,
+      "id": "25",
       "title": "It went through such rapid contortions",
       "tags": [
         "fiction",
@@ -211,7 +211,7 @@
       ]
     },
     {
-      "id": 26,
+      "id": "26",
       "title": "She patiently waited for his number to be called.",
       "tags": [
         "french",
@@ -220,7 +220,7 @@
       ]
     },
     {
-      "id": 27,
+      "id": "27",
       "title": "Ten more steps.",
       "tags": [
         "mystery",
@@ -229,7 +229,7 @@
       ]
     },
     {
-      "id": 28,
+      "id": "28",
       "title": "He had three simple rules by which he lived.",
       "tags": [
         "crime",
@@ -237,14 +237,14 @@
       ]
     },
     {
-      "id": 29,
+      "id": "29",
       "title": "The chair sat in the corner where it had been",
       "tags": [
         "mystery"
       ]
     },
     {
-      "id": 30,
+      "id": "30",
       "title": "Things aren't going well at all",
       "tags": [
         "love",
@@ -252,23 +252,57 @@
       ]
     },
     {
-      "id": 123,
+      "id": 31,
       "title": "dsdsd",
       "tags": [
-        "french",
-        "love"
+        "classic"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "dsds",
+      "tags": [
+        "english",
+        "french"
       ]
     }
   ],
   "tags": [
-    "classic",
-    "crime",
-    "english",
-    "fiction",
-    "french",
-    "history",
-    "love",
-    "magical",
-    "mystery"
+    {
+      "id": "1",
+      "name": "classic"
+    },
+    {
+      "id": "2",
+      "name": "crime"
+    },
+    {
+      "id": "3",
+      "name": "english"
+    },
+    {
+      "id": "4",
+      "name": "fiction"
+    },
+    {
+      "id": "5",
+      "name": "french"
+    },
+    {
+      "id": "6",
+      "name": "history"
+    },
+    {
+      "id": "7",
+      "name": "love"
+    },
+    {
+      "id": "8",
+      "name": "magical"
+    },
+    {
+      "id": "9",
+      "name": "mystery"
+    }
   ]
 }
