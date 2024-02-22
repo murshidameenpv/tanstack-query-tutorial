@@ -5,10 +5,17 @@ h1 {
   text-align: center;
   font-weight: 100;
 }
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 40%;
+  width: calc(50% - 20px);
   border-radius: 5px;
   margin: 10px;
   padding: 10px;
@@ -17,6 +24,41 @@ h1 {
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
-.container {
+
+.tag {
+  display: inline-block;
+  background-color: gray;
+  color: white;
+  padding: 2px 5px;
+  margin-right: 5px;
+  border-radius: 3px;
+}
+
+.post-form {
   display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.checkbox-container input {
+  margin-right: 5px;
+}
+
+.post-form button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.post-form button:hover {
+  background-color: #45a049;
 }
