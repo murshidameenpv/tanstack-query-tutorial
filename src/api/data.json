@@ -1,11 +1,21 @@
 {
   "posts": [
     { "id": "1", "title": "a title", "views": 100 },
-    { "id": "2", "title": "another title", "views": 200 }
+    { "id": "2", "title": "another title", "views": 200 },
+    { "id": "3", "title": "third title", "views": 300 },
+    { "id": "4", "title": "fourth title", "views": 400 },
+    { "id": "5", "title": "fifth title", "views": 500 },
+    { "id": "6", "title": "sixth title", "views": 600 },
+    { "id": "7", "title": "seventh title", "views": 700 }
   ],
   "comments": [
     { "id": "1", "text": "a comment about post 1", "postId": "1" },
-    { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    { "id": "2", "text": "another comment about post 1", "postId": "1" },
+    { "id": "3", "text": "a comment about post 3", "postId": "3" },
+    { "id": "4", "text": "another comment about post 4", "postId": "4" },
+    { "id": "5", "text": "a comment about post 5", "postId": "5" },
+    { "id": "6", "text": "another comment about post 6", "postId": "6" },
+    { "id": "7", "text": "a comment about post 7", "postId": "7" }
   ],
   "profile": {
     "name": "typicode"
